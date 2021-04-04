@@ -24,7 +24,7 @@ export default function Room({ room }) {
 Room.propTypes = {
     room:PropTypes.shape({
             name:PropTypes.string.isRequired,
-            // slug:ProTypes.string.isRequired,
+            // slug:ProTypes.string.isRequired, 
             images:PropTypes.arrayOf(PropTypes.string).isRequired,
             price:PropTypes.number.isRequired,
     })
